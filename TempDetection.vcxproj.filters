@@ -1,0 +1,1974 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TempDetection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TempDetectionDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TempDetectionView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowMessageView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IconListBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ContentSheet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgMainShow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgHistory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OnDrawView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mscomm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="msflexgrid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="picture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rowcursor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnST.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CommEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tchart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="areaseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="arrowseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="barseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bubbleseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="candleseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="errorbarseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fastlineseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ganttseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="horizbarseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="marks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pieseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pointseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="polarseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shapeseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="surfaceseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="teefunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="volumeseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="adxfunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="annotationcallout.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="axes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="axisarrowtool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="axisgridpen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="axislabels.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="axisscrolltool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bevelfilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="blurfilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bollingerfunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="boxplotseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="calendarseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chartaxispen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="charthiddenpen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="clockseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="clvfunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="compressfunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="contourmarks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="contrastfilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="custom3dpaletteseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dragpointtool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="drawline.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="environment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="errorseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="explodedslices.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="expmovavgfunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fibonaccitool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="filteritems.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framebrush.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framedborder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="funnelseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gaugeseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gaugeseriespointer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="glposition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gradient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="grayscalefilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="highlowlineseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="highlowseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="histogramfunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="horizhistogramseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="horizlineseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="htmlexport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="huelumsatfilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="imagepointseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="import.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="isosurfaceseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="legendscrollbartool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="legendtitle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="macdfunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mappolygon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mappolygonlist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mapseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="margins.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="markssymbol.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mirrorfilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="modefunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mosaicfilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="movingavgfunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nearesttool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="numericmarker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="orgitemcollection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="orgseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="orgshape.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="page.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="panel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="point3dseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pointer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="printer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rectangletool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="renkoseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rmsfunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sarfunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="scroll.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="scrollbarthumb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="seriesbandtool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="seriesgroups.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="seriesmarkposition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="seriesstatstool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="smithseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="smoothpoints.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="softenfilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="spacing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="subgradient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="teefont.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="teepoint2d.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="teerect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="teeshadow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="teeshape.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="text3dtool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="transposeseriestool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="trendfunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="trisurfaceseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="xamlexport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsexport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="xmlexport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="zoom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="amountfilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="annotationtool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="aspect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="averagefunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="axis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="axislabelsitem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="axistitle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="backimage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="barjoinseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bezierseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bmpexport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="brightnessfilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="brush.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bubble3dseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="calendarcell.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="canvas.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ccifunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chartfont.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="circlelabels.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="circulargauge.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="clipseriestool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="colorbandtool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="colorfilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="colorlinetool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="contourlevel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="contourlevels.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="contourseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cropfilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cursortool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="customfunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="datatabletool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="donutseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="downsamplingfunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dragmarkstool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="drawlinelist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="drawlinetool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="embossfilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="expavgfunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="export.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="extralegendtool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fadertool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fibonacciitem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="floatxyz.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gammacorrectionfilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gaugepointerrange.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gifexport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gllightsource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gridbandtool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gridtransposetool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="horizboxplotseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="imagebarseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jpegexport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kagiseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="legend.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="legenditem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="legenditems.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="legendsymbol.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="levelsegment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lighttool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lineargauge.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lineseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="linktool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="magnifytool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="markscallout.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="marksitem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="markstiptool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="medianfunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nativeexport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="obvfunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="orgitem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pagenumtool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pdfexport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="performancefunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="piemarks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pieotherslice.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pietool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pngexport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pointarray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="polargridseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="printersettings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pyramidseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="radarseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resizefilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rotatetool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="seriesgroup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="serieslist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="seriesregiontool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sharpenfilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="smoothingfunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stddeviationfunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="subsetteefunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="surfacenearesttool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tablelegend.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tagcloudseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="teefilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="teeopengl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="teepicture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="teeshapepanel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="textexport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tilefilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="titles.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="toollist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="valuelist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="valuelists.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector3dseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="videoplayertool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="videotool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="volumepipeseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="wall.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="waterfallseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="windroseseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="zoomfilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="antialiastool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bannertool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bar3dseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="calendarcellupper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chartimagetool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="colorgridseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="curvefittingfunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="darvasseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deltapointseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="epsexport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fibonaccilevels.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="filterregion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="frametool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gantttool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gridbandbrush.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="histogramseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="horizareaseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="legendpalettetool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="metafileexport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="numericgauge.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pcxexport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pointfigureseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="polarbarseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pvofunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rotatefilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rsifunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="selectortool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="seriesanimationtool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="seriesmarkspositions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="strings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="surfacesides.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="svgexport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="teecustomshape.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="teepoint3d.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="towerseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="walls.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="worldseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgCalibrate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgPosition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShowAnt4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShowAnt3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShowAnt2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShowAnt1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgUserSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgFactorySet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgUpdateFirmware.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgLogin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgChangeUser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgPowerControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="iplotx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="iplotannotationx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="iplotaxisx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="iplotchannelx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="iplotdatacursorx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="iplotdataviewx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="iplotlabelx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="iplotlegendx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="iplotlimitx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="iplottablecolumnx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="iplottablex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="iplottoolbarx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgAlarmHistory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgAlarmShow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSetAlarm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgModifyReaderID.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgCtlSingleReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TempDetection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TempDetectionDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TempDetectionView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowMessageView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IconListBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ContentSheet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgMainShow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgHistory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OnDrawView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mscomm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="msflexgrid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="font.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="picture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rowcursor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnST.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CommEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tchart.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="adxfunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="amountfilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="annotationcallout.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="annotationtool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="antialiastool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="areaseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="arrowseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="aspect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="averagefunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="axes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="axis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="axisarrowtool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="axisgridpen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="axislabels.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="axislabelsitem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="axisscrolltool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="axistitle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="backimage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bannertool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bar3dseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="barjoinseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="barseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bevelfilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bezierseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="blurfilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bmpexport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bollingerfunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="boxplotseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="brightnessfilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="brush.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bubble3dseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bubbleseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="calendarcell.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="calendarcellupper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="calendarseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="candleseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="canvas.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ccifunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chartaxispen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chartfont.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="charthiddenpen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chartimagetool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="circlelabels.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="circulargauge.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="clipseriestool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="clockseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="clvfunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="colorbandtool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="colorfilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="colorgridseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="colorlinetool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="compressfunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="contourlevel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="contourlevels.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="contourmarks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="contourseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="contrastfilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cropfilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cursortool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="curvefittingfunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="custom3dpaletteseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="customfunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="darvasseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="datatabletool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deltapointseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="donutseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="downsamplingfunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dragmarkstool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dragpointtool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="drawline.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="drawlinelist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="drawlinetool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="embossfilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="environment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="epsexport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="errorbarseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="errorseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="expavgfunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="explodedslices.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="expmovavgfunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="export.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="extralegendtool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fadertool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fastlineseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fibonacciitem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fibonaccilevels.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fibonaccitool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="filteritems.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="filterregion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="floatxyz.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="framebrush.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="framedborder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="frametool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="funnelseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gammacorrectionfilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ganttseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gantttool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gaugepointerrange.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gaugeseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gaugeseriespointer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gifexport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gllightsource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="glposition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gradient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="grayscalefilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gridbandbrush.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gridbandtool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gridtransposetool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="highlowlineseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="highlowseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="histogramfunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="histogramseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="horizareaseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="horizbarseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="horizboxplotseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="horizhistogramseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="horizlineseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="htmlexport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="huelumsatfilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="imagebarseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="imagepointseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="import.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="isosurfaceseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jpegexport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kagiseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="legend.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="legenditem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="legenditems.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="legendpalettetool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="legendscrollbartool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="legendsymbol.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="legendtitle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="levelsegment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lighttool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lineargauge.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lineseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="linktool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="macdfunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="magnifytool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mappolygon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mappolygonlist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mapseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="margins.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="marks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="markscallout.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="marksitem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="markssymbol.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="markstiptool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="medianfunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="metafileexport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mirrorfilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="modefunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mosaicfilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="movingavgfunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nativeexport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nearesttool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="numericgauge.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="numericmarker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="obvfunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="orgitem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="orgitemcollection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="orgseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="orgshape.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="page.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pagenumtool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="panel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pcxexport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pdfexport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="performancefunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="piemarks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pieotherslice.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pieseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pietool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pngexport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="point3dseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pointarray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pointfigureseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pointseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="polarbarseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="polargridseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="polarseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="printer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="printersettings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pvofunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pyramidseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="radarseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rectangletool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="renkoseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="resizefilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rmsfunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rotatefilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rotatetool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rsifunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sarfunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="scroll.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="scrollbarthumb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="selectortool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="seriesanimationtool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="seriesbandtool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="seriesgroup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="seriesgroups.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="serieslist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="seriesmarkposition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="seriesmarkspositions.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="seriesregiontool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="seriesstatstool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shapeseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sharpenfilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="smithseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="smoothingfunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="smoothpoints.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="softenfilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="spacing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stddeviationfunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="strings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="subgradient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="subsetteefunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="surfacenearesttool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="surfaceseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="surfacesides.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="svgexport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tablelegend.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tagcloudseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="teecustomshape.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="teefilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="teefont.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="teefunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="teeopengl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="teepicture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="teepoint2d.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="teepoint3d.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="teerect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="teeshadow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="teeshape.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="teeshapepanel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="text3dtool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="textexport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tilefilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="titles.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="toollist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="towerseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="transposeseriestool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="trendfunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="trisurfaceseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="valuelist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="valuelists.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vector3dseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="videoplayertool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="videotool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="volumepipeseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="volumeseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="wall.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="walls.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="waterfallseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="windroseseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="worldseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="xamlexport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsexport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="xmlexport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zoom.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zoomfilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgCalibrate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgPosition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgConfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShowAnt4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShowAnt3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShowAnt2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShowAnt1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgUserSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgFactorySet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgUpdateFirmware.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgLogin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgChangeUser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgPowerControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="iplotx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="iplotannotationx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="iplotaxisx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="iplotchannelx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="iplotdatacursorx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="iplotdataviewx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="iplotlabelx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="iplotlegendx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="iplotlimitx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="iplottablecolumnx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="iplottablex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="iplottoolbarx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAlarmHistory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAlarmShow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSetAlarm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgModifyReaderID.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgCtlSingleReader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TempDetection.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="UserImages.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\TempDetectionDoc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\TempDetection.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\comp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\silence.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\speaker.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\start.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\stop.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ok.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\stop2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\listbmp1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\close.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\down .ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\TempDetection.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

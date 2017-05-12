@@ -1,0 +1,772 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1D265626-5DDE-473C-A580-FAA59FAA3A7F}</ProjectGuid>
+    <RootNamespace>TempDetection</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="adxfunction.h" />
+    <ClInclude Include="amountfilter.h" />
+    <ClInclude Include="annotationcallout.h" />
+    <ClInclude Include="annotationtool.h" />
+    <ClInclude Include="antialiastool.h" />
+    <ClInclude Include="areaseries.h" />
+    <ClInclude Include="arrowseries.h" />
+    <ClInclude Include="aspect.h" />
+    <ClInclude Include="averagefunction.h" />
+    <ClInclude Include="axes.h" />
+    <ClInclude Include="axis.h" />
+    <ClInclude Include="axisarrowtool.h" />
+    <ClInclude Include="axisgridpen.h" />
+    <ClInclude Include="axislabels.h" />
+    <ClInclude Include="axislabelsitem.h" />
+    <ClInclude Include="axisscrolltool.h" />
+    <ClInclude Include="axistitle.h" />
+    <ClInclude Include="backimage.h" />
+    <ClInclude Include="bannertool.h" />
+    <ClInclude Include="bar3dseries.h" />
+    <ClInclude Include="barjoinseries.h" />
+    <ClInclude Include="barseries.h" />
+    <ClInclude Include="bevelfilter.h" />
+    <ClInclude Include="bezierseries.h" />
+    <ClInclude Include="blurfilter.h" />
+    <ClInclude Include="bmpexport.h" />
+    <ClInclude Include="bollingerfunction.h" />
+    <ClInclude Include="boxplotseries.h" />
+    <ClInclude Include="brightnessfilter.h" />
+    <ClInclude Include="brush.h" />
+    <ClInclude Include="BtnST.h" />
+    <ClInclude Include="bubble3dseries.h" />
+    <ClInclude Include="bubbleseries.h" />
+    <ClInclude Include="calendarcell.h" />
+    <ClInclude Include="calendarcellupper.h" />
+    <ClInclude Include="calendarseries.h" />
+    <ClInclude Include="candleseries.h" />
+    <ClInclude Include="canvas.h" />
+    <ClInclude Include="ccifunction.h" />
+    <ClInclude Include="chartaxispen.h" />
+    <ClInclude Include="chartfont.h" />
+    <ClInclude Include="charthiddenpen.h" />
+    <ClInclude Include="chartimagetool.h" />
+    <ClInclude Include="circlelabels.h" />
+    <ClInclude Include="circulargauge.h" />
+    <ClInclude Include="clipseriestool.h" />
+    <ClInclude Include="clockseries.h" />
+    <ClInclude Include="clvfunction.h" />
+    <ClInclude Include="colorbandtool.h" />
+    <ClInclude Include="colorfilter.h" />
+    <ClInclude Include="colorgridseries.h" />
+    <ClInclude Include="colorlinetool.h" />
+    <ClInclude Include="CommEdit.h" />
+    <ClInclude Include="compressfunction.h" />
+    <ClInclude Include="ContentSheet.h" />
+    <ClInclude Include="contourlevel.h" />
+    <ClInclude Include="contourlevels.h" />
+    <ClInclude Include="contourmarks.h" />
+    <ClInclude Include="contourseries.h" />
+    <ClInclude Include="contrastfilter.h" />
+    <ClInclude Include="cropfilter.h" />
+    <ClInclude Include="cursortool.h" />
+    <ClInclude Include="curvefittingfunction.h" />
+    <ClInclude Include="custom3dpaletteseries.h" />
+    <ClInclude Include="customfunction.h" />
+    <ClInclude Include="darvasseries.h" />
+    <ClInclude Include="datatabletool.h" />
+    <ClInclude Include="deltapointseries.h" />
+    <ClInclude Include="DlgAlarmHistory.h" />
+    <ClInclude Include="DlgAlarmShow.h" />
+    <ClInclude Include="DlgCalibrate.h" />
+    <ClInclude Include="DlgChangeUser.h" />
+    <ClInclude Include="DlgConfig.h" />
+    <ClInclude Include="DlgCtlSingleReader.h" />
+    <ClInclude Include="DlgFactorySet.h" />
+    <ClInclude Include="DlgHistory.h" />
+    <ClInclude Include="DlgLogin.h" />
+    <ClInclude Include="DlgMainShow.h" />
+    <ClInclude Include="DlgModifyReaderID.h" />
+    <ClInclude Include="DlgPosition.h" />
+    <ClInclude Include="DlgPowerControl.h" />
+    <ClInclude Include="DlgSetAlarm.h" />
+    <ClInclude Include="DlgShowAnt1.h" />
+    <ClInclude Include="DlgShowAnt2.h" />
+    <ClInclude Include="DlgShowAnt3.h" />
+    <ClInclude Include="DlgShowAnt4.h" />
+    <ClInclude Include="DlgUpdateFirmware.h" />
+    <ClInclude Include="DlgUserSet.h" />
+    <ClInclude Include="donutseries.h" />
+    <ClInclude Include="downsamplingfunction.h" />
+    <ClInclude Include="dragmarkstool.h" />
+    <ClInclude Include="dragpointtool.h" />
+    <ClInclude Include="drawline.h" />
+    <ClInclude Include="drawlinelist.h" />
+    <ClInclude Include="drawlinetool.h" />
+    <ClInclude Include="embossfilter.h" />
+    <ClInclude Include="environment.h" />
+    <ClInclude Include="epsexport.h" />
+    <ClInclude Include="errorbarseries.h" />
+    <ClInclude Include="errorseries.h" />
+    <ClInclude Include="expavgfunction.h" />
+    <ClInclude Include="explodedslices.h" />
+    <ClInclude Include="expmovavgfunction.h" />
+    <ClInclude Include="export.h" />
+    <ClInclude Include="extralegendtool.h" />
+    <ClInclude Include="fadertool.h" />
+    <ClInclude Include="fastlineseries.h" />
+    <ClInclude Include="fibonacciitem.h" />
+    <ClInclude Include="fibonaccilevels.h" />
+    <ClInclude Include="fibonaccitool.h" />
+    <ClInclude Include="filteritems.h" />
+    <ClInclude Include="filterregion.h" />
+    <ClInclude Include="floatxyz.h" />
+    <ClInclude Include="font.h" />
+    <ClInclude Include="framebrush.h" />
+    <ClInclude Include="framedborder.h" />
+    <ClInclude Include="frametool.h" />
+    <ClInclude Include="funnelseries.h" />
+    <ClInclude Include="gammacorrectionfilter.h" />
+    <ClInclude Include="ganttseries.h" />
+    <ClInclude Include="gantttool.h" />
+    <ClInclude Include="gaugepointerrange.h" />
+    <ClInclude Include="gaugeseries.h" />
+    <ClInclude Include="gaugeseriespointer.h" />
+    <ClInclude Include="gifexport.h" />
+    <ClInclude Include="gllightsource.h" />
+    <ClInclude Include="glposition.h" />
+    <ClInclude Include="gradient.h" />
+    <ClInclude Include="grayscalefilter.h" />
+    <ClInclude Include="gridbandbrush.h" />
+    <ClInclude Include="gridbandtool.h" />
+    <ClInclude Include="gridtransposetool.h" />
+    <ClInclude Include="highlowlineseries.h" />
+    <ClInclude Include="highlowseries.h" />
+    <ClInclude Include="histogramfunction.h" />
+    <ClInclude Include="histogramseries.h" />
+    <ClInclude Include="horizareaseries.h" />
+    <ClInclude Include="horizbarseries.h" />
+    <ClInclude Include="horizboxplotseries.h" />
+    <ClInclude Include="horizhistogramseries.h" />
+    <ClInclude Include="horizlineseries.h" />
+    <ClInclude Include="htmlexport.h" />
+    <ClInclude Include="huelumsatfilter.h" />
+    <ClInclude Include="IconListBox.h" />
+    <ClInclude Include="imagebarseries.h" />
+    <ClInclude Include="imagepointseries.h" />
+    <ClInclude Include="import.h" />
+    <ClInclude Include="iplotannotationx.h" />
+    <ClInclude Include="iplotaxisx.h" />
+    <ClInclude Include="iplotchannelx.h" />
+    <ClInclude Include="iplotdatacursorx.h" />
+    <ClInclude Include="iplotdataviewx.h" />
+    <ClInclude Include="iplotlabelx.h" />
+    <ClInclude Include="iplotlegendx.h" />
+    <ClInclude Include="iplotlimitx.h" />
+    <ClInclude Include="iplottablecolumnx.h" />
+    <ClInclude Include="iplottablex.h" />
+    <ClInclude Include="iplottoolbarx.h" />
+    <ClInclude Include="iplotx.h" />
+    <ClInclude Include="isosurfaceseries.h" />
+    <ClInclude Include="jpegexport.h" />
+    <ClInclude Include="kagiseries.h" />
+    <ClInclude Include="legend.h" />
+    <ClInclude Include="legenditem.h" />
+    <ClInclude Include="legenditems.h" />
+    <ClInclude Include="legendpalettetool.h" />
+    <ClInclude Include="legendscrollbartool.h" />
+    <ClInclude Include="legendsymbol.h" />
+    <ClInclude Include="legendtitle.h" />
+    <ClInclude Include="levelsegment.h" />
+    <ClInclude Include="lighttool.h" />
+    <ClInclude Include="lineargauge.h" />
+    <ClInclude Include="lineseries.h" />
+    <ClInclude Include="linktool.h" />
+    <ClInclude Include="macdfunction.h" />
+    <ClInclude Include="magnifytool.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="mappolygon.h" />
+    <ClInclude Include="mappolygonlist.h" />
+    <ClInclude Include="mapseries.h" />
+    <ClInclude Include="margins.h" />
+    <ClInclude Include="marks.h" />
+    <ClInclude Include="markscallout.h" />
+    <ClInclude Include="marksitem.h" />
+    <ClInclude Include="markssymbol.h" />
+    <ClInclude Include="markstiptool.h" />
+    <ClInclude Include="medianfunction.h" />
+    <ClInclude Include="metafileexport.h" />
+    <ClInclude Include="mirrorfilter.h" />
+    <ClInclude Include="modefunction.h" />
+    <ClInclude Include="mosaicfilter.h" />
+    <ClInclude Include="movingavgfunction.h" />
+    <ClInclude Include="mscomm.h" />
+    <ClInclude Include="msflexgrid.h" />
+    <ClInclude Include="nativeexport.h" />
+    <ClInclude Include="nearesttool.h" />
+    <ClInclude Include="numericgauge.h" />
+    <ClInclude Include="numericmarker.h" />
+    <ClInclude Include="obvfunction.h" />
+    <ClInclude Include="OnDrawView.h" />
+    <ClInclude Include="orgitem.h" />
+    <ClInclude Include="orgitemcollection.h" />
+    <ClInclude Include="orgseries.h" />
+    <ClInclude Include="orgshape.h" />
+    <ClInclude Include="page.h" />
+    <ClInclude Include="pagenumtool.h" />
+    <ClInclude Include="panel.h" />
+    <ClInclude Include="pcxexport.h" />
+    <ClInclude Include="pdfexport.h" />
+    <ClInclude Include="pen.h" />
+    <ClInclude Include="performancefunction.h" />
+    <ClInclude Include="picture.h" />
+    <ClInclude Include="piemarks.h" />
+    <ClInclude Include="pieotherslice.h" />
+    <ClInclude Include="pieseries.h" />
+    <ClInclude Include="pietool.h" />
+    <ClInclude Include="pngexport.h" />
+    <ClInclude Include="point3dseries.h" />
+    <ClInclude Include="pointarray.h" />
+    <ClInclude Include="pointer.h" />
+    <ClInclude Include="pointfigureseries.h" />
+    <ClInclude Include="pointseries.h" />
+    <ClInclude Include="polarbarseries.h" />
+    <ClInclude Include="polargridseries.h" />
+    <ClInclude Include="polarseries.h" />
+    <ClInclude Include="printer.h" />
+    <ClInclude Include="printersettings.h" />
+    <ClInclude Include="pvofunction.h" />
+    <ClInclude Include="pyramidseries.h" />
+    <ClInclude Include="radarseries.h" />
+    <ClInclude Include="rectangletool.h" />
+    <ClInclude Include="renkoseries.h" />
+    <ClInclude Include="resizefilter.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="rmsfunction.h" />
+    <ClInclude Include="rotatefilter.h" />
+    <ClInclude Include="rotatetool.h" />
+    <ClInclude Include="rowcursor.h" />
+    <ClInclude Include="rsifunction.h" />
+    <ClInclude Include="sarfunction.h" />
+    <ClInclude Include="scroll.h" />
+    <ClInclude Include="scrollbarthumb.h" />
+    <ClInclude Include="selectortool.h" />
+    <ClInclude Include="series.h" />
+    <ClInclude Include="seriesanimationtool.h" />
+    <ClInclude Include="seriesbandtool.h" />
+    <ClInclude Include="seriesgroup.h" />
+    <ClInclude Include="seriesgroups.h" />
+    <ClInclude Include="serieslist.h" />
+    <ClInclude Include="seriesmarkposition.h" />
+    <ClInclude Include="seriesmarkspositions.h" />
+    <ClInclude Include="seriesregiontool.h" />
+    <ClInclude Include="seriesstatstool.h" />
+    <ClInclude Include="shapeseries.h" />
+    <ClInclude Include="sharpenfilter.h" />
+    <ClInclude Include="ShowMessageView.h" />
+    <ClInclude Include="smithseries.h" />
+    <ClInclude Include="smoothingfunction.h" />
+    <ClInclude Include="smoothpoints.h" />
+    <ClInclude Include="softenfilter.h" />
+    <ClInclude Include="spacing.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="stddeviationfunction.h" />
+    <ClInclude Include="strings.h" />
+    <ClInclude Include="subgradient.h" />
+    <ClInclude Include="subsetteefunction.h" />
+    <ClInclude Include="surfacenearesttool.h" />
+    <ClInclude Include="surfaceseries.h" />
+    <ClInclude Include="surfacesides.h" />
+    <ClInclude Include="svgexport.h" />
+    <ClInclude Include="tablelegend.h" />
+    <ClInclude Include="tagcloudseries.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="tchart.h" />
+    <ClInclude Include="teecustomshape.h" />
+    <ClInclude Include="teefilter.h" />
+    <ClInclude Include="teefont.h" />
+    <ClInclude Include="teefunction.h" />
+    <ClInclude Include="teeopengl.h" />
+    <ClInclude Include="teepicture.h" />
+    <ClInclude Include="teepoint2d.h" />
+    <ClInclude Include="teepoint3d.h" />
+    <ClInclude Include="teerect.h" />
+    <ClInclude Include="teeshadow.h" />
+    <ClInclude Include="teeshape.h" />
+    <ClInclude Include="teeshapepanel.h" />
+    <ClInclude Include="TempDetection.h" />
+    <ClInclude Include="TempDetectionDoc.h" />
+    <ClInclude Include="TempDetectionView.h" />
+    <ClInclude Include="text3dtool.h" />
+    <ClInclude Include="textexport.h" />
+    <ClInclude Include="tilefilter.h" />
+    <ClInclude Include="titles.h" />
+    <ClInclude Include="toollist.h" />
+    <ClInclude Include="tools.h" />
+    <ClInclude Include="towerseries.h" />
+    <ClInclude Include="transposeseriestool.h" />
+    <ClInclude Include="trendfunction.h" />
+    <ClInclude Include="trisurfaceseries.h" />
+    <ClInclude Include="valuelist.h" />
+    <ClInclude Include="valuelists.h" />
+    <ClInclude Include="vector3dseries.h" />
+    <ClInclude Include="videoplayertool.h" />
+    <ClInclude Include="videotool.h" />
+    <ClInclude Include="volumepipeseries.h" />
+    <ClInclude Include="volumeseries.h" />
+    <ClInclude Include="wall.h" />
+    <ClInclude Include="walls.h" />
+    <ClInclude Include="waterfallseries.h" />
+    <ClInclude Include="windroseseries.h" />
+    <ClInclude Include="worldseries.h" />
+    <ClInclude Include="xamlexport.h" />
+    <ClInclude Include="xlsexport.h" />
+    <ClInclude Include="xmlexport.h" />
+    <ClInclude Include="zoom.h" />
+    <ClInclude Include="zoomfilter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="adxfunction.cpp" />
+    <ClCompile Include="amountfilter.cpp" />
+    <ClCompile Include="annotationcallout.cpp" />
+    <ClCompile Include="annotationtool.cpp" />
+    <ClCompile Include="antialiastool.cpp" />
+    <ClCompile Include="areaseries.cpp" />
+    <ClCompile Include="arrowseries.cpp" />
+    <ClCompile Include="aspect.cpp" />
+    <ClCompile Include="averagefunction.cpp" />
+    <ClCompile Include="axes.cpp" />
+    <ClCompile Include="axis.cpp" />
+    <ClCompile Include="axisarrowtool.cpp" />
+    <ClCompile Include="axisgridpen.cpp" />
+    <ClCompile Include="axislabels.cpp" />
+    <ClCompile Include="axislabelsitem.cpp" />
+    <ClCompile Include="axisscrolltool.cpp" />
+    <ClCompile Include="axistitle.cpp" />
+    <ClCompile Include="backimage.cpp" />
+    <ClCompile Include="bannertool.cpp" />
+    <ClCompile Include="bar3dseries.cpp" />
+    <ClCompile Include="barjoinseries.cpp" />
+    <ClCompile Include="barseries.cpp" />
+    <ClCompile Include="bevelfilter.cpp" />
+    <ClCompile Include="bezierseries.cpp" />
+    <ClCompile Include="blurfilter.cpp" />
+    <ClCompile Include="bmpexport.cpp" />
+    <ClCompile Include="bollingerfunction.cpp" />
+    <ClCompile Include="boxplotseries.cpp" />
+    <ClCompile Include="brightnessfilter.cpp" />
+    <ClCompile Include="brush.cpp" />
+    <ClCompile Include="BtnST.cpp" />
+    <ClCompile Include="bubble3dseries.cpp" />
+    <ClCompile Include="bubbleseries.cpp" />
+    <ClCompile Include="calendarcell.cpp" />
+    <ClCompile Include="calendarcellupper.cpp" />
+    <ClCompile Include="calendarseries.cpp" />
+    <ClCompile Include="candleseries.cpp" />
+    <ClCompile Include="canvas.cpp" />
+    <ClCompile Include="ccifunction.cpp" />
+    <ClCompile Include="chartaxispen.cpp" />
+    <ClCompile Include="chartfont.cpp" />
+    <ClCompile Include="charthiddenpen.cpp" />
+    <ClCompile Include="chartimagetool.cpp" />
+    <ClCompile Include="circlelabels.cpp" />
+    <ClCompile Include="circulargauge.cpp" />
+    <ClCompile Include="clipseriestool.cpp" />
+    <ClCompile Include="clockseries.cpp" />
+    <ClCompile Include="clvfunction.cpp" />
+    <ClCompile Include="colorbandtool.cpp" />
+    <ClCompile Include="colorfilter.cpp" />
+    <ClCompile Include="colorgridseries.cpp" />
+    <ClCompile Include="colorlinetool.cpp" />
+    <ClCompile Include="CommEdit.cpp" />
+    <ClCompile Include="compressfunction.cpp" />
+    <ClCompile Include="ContentSheet.cpp" />
+    <ClCompile Include="contourlevel.cpp" />
+    <ClCompile Include="contourlevels.cpp" />
+    <ClCompile Include="contourmarks.cpp" />
+    <ClCompile Include="contourseries.cpp" />
+    <ClCompile Include="contrastfilter.cpp" />
+    <ClCompile Include="cropfilter.cpp" />
+    <ClCompile Include="cursortool.cpp" />
+    <ClCompile Include="curvefittingfunction.cpp" />
+    <ClCompile Include="custom3dpaletteseries.cpp" />
+    <ClCompile Include="customfunction.cpp" />
+    <ClCompile Include="darvasseries.cpp" />
+    <ClCompile Include="datatabletool.cpp" />
+    <ClCompile Include="deltapointseries.cpp" />
+    <ClCompile Include="DlgAlarmHistory.cpp" />
+    <ClCompile Include="DlgAlarmShow.cpp" />
+    <ClCompile Include="DlgCalibrate.cpp" />
+    <ClCompile Include="DlgChangeUser.cpp" />
+    <ClCompile Include="DlgConfig.cpp" />
+    <ClCompile Include="DlgCtlSingleReader.cpp" />
+    <ClCompile Include="DlgFactorySet.cpp" />
+    <ClCompile Include="DlgHistory.cpp" />
+    <ClCompile Include="DlgLogin.cpp" />
+    <ClCompile Include="DlgMainShow.cpp" />
+    <ClCompile Include="DlgModifyReaderID.cpp" />
+    <ClCompile Include="DlgPosition.cpp" />
+    <ClCompile Include="DlgPowerControl.cpp" />
+    <ClCompile Include="DlgSetAlarm.cpp" />
+    <ClCompile Include="DlgShowAnt1.cpp" />
+    <ClCompile Include="DlgShowAnt2.cpp" />
+    <ClCompile Include="DlgShowAnt3.cpp" />
+    <ClCompile Include="DlgShowAnt4.cpp" />
+    <ClCompile Include="DlgUpdateFirmware.cpp" />
+    <ClCompile Include="DlgUserSet.cpp" />
+    <ClCompile Include="donutseries.cpp" />
+    <ClCompile Include="downsamplingfunction.cpp" />
+    <ClCompile Include="dragmarkstool.cpp" />
+    <ClCompile Include="dragpointtool.cpp" />
+    <ClCompile Include="drawline.cpp" />
+    <ClCompile Include="drawlinelist.cpp" />
+    <ClCompile Include="drawlinetool.cpp" />
+    <ClCompile Include="embossfilter.cpp" />
+    <ClCompile Include="environment.cpp" />
+    <ClCompile Include="epsexport.cpp" />
+    <ClCompile Include="errorbarseries.cpp" />
+    <ClCompile Include="errorseries.cpp" />
+    <ClCompile Include="expavgfunction.cpp" />
+    <ClCompile Include="explodedslices.cpp" />
+    <ClCompile Include="expmovavgfunction.cpp" />
+    <ClCompile Include="export.cpp" />
+    <ClCompile Include="extralegendtool.cpp" />
+    <ClCompile Include="fadertool.cpp" />
+    <ClCompile Include="fastlineseries.cpp" />
+    <ClCompile Include="fibonacciitem.cpp" />
+    <ClCompile Include="fibonaccilevels.cpp" />
+    <ClCompile Include="fibonaccitool.cpp" />
+    <ClCompile Include="filteritems.cpp" />
+    <ClCompile Include="filterregion.cpp" />
+    <ClCompile Include="floatxyz.cpp" />
+    <ClCompile Include="font.cpp" />
+    <ClCompile Include="framebrush.cpp" />
+    <ClCompile Include="framedborder.cpp" />
+    <ClCompile Include="frametool.cpp" />
+    <ClCompile Include="funnelseries.cpp" />
+    <ClCompile Include="gammacorrectionfilter.cpp" />
+    <ClCompile Include="ganttseries.cpp" />
+    <ClCompile Include="gantttool.cpp" />
+    <ClCompile Include="gaugepointerrange.cpp" />
+    <ClCompile Include="gaugeseries.cpp" />
+    <ClCompile Include="gaugeseriespointer.cpp" />
+    <ClCompile Include="gifexport.cpp" />
+    <ClCompile Include="gllightsource.cpp" />
+    <ClCompile Include="glposition.cpp" />
+    <ClCompile Include="gradient.cpp" />
+    <ClCompile Include="grayscalefilter.cpp" />
+    <ClCompile Include="gridbandbrush.cpp" />
+    <ClCompile Include="gridbandtool.cpp" />
+    <ClCompile Include="gridtransposetool.cpp" />
+    <ClCompile Include="highlowlineseries.cpp" />
+    <ClCompile Include="highlowseries.cpp" />
+    <ClCompile Include="histogramfunction.cpp" />
+    <ClCompile Include="histogramseries.cpp" />
+    <ClCompile Include="horizareaseries.cpp" />
+    <ClCompile Include="horizbarseries.cpp" />
+    <ClCompile Include="horizboxplotseries.cpp" />
+    <ClCompile Include="horizhistogramseries.cpp" />
+    <ClCompile Include="horizlineseries.cpp" />
+    <ClCompile Include="htmlexport.cpp" />
+    <ClCompile Include="huelumsatfilter.cpp" />
+    <ClCompile Include="IconListBox.cpp" />
+    <ClCompile Include="imagebarseries.cpp" />
+    <ClCompile Include="imagepointseries.cpp" />
+    <ClCompile Include="import.cpp" />
+    <ClCompile Include="iplotannotationx.cpp" />
+    <ClCompile Include="iplotaxisx.cpp" />
+    <ClCompile Include="iplotchannelx.cpp" />
+    <ClCompile Include="iplotdatacursorx.cpp" />
+    <ClCompile Include="iplotdataviewx.cpp" />
+    <ClCompile Include="iplotlabelx.cpp" />
+    <ClCompile Include="iplotlegendx.cpp" />
+    <ClCompile Include="iplotlimitx.cpp" />
+    <ClCompile Include="iplottablecolumnx.cpp" />
+    <ClCompile Include="iplottablex.cpp" />
+    <ClCompile Include="iplottoolbarx.cpp" />
+    <ClCompile Include="iplotx.cpp" />
+    <ClCompile Include="isosurfaceseries.cpp" />
+    <ClCompile Include="jpegexport.cpp" />
+    <ClCompile Include="kagiseries.cpp" />
+    <ClCompile Include="legend.cpp" />
+    <ClCompile Include="legenditem.cpp" />
+    <ClCompile Include="legenditems.cpp" />
+    <ClCompile Include="legendpalettetool.cpp" />
+    <ClCompile Include="legendscrollbartool.cpp" />
+    <ClCompile Include="legendsymbol.cpp" />
+    <ClCompile Include="legendtitle.cpp" />
+    <ClCompile Include="levelsegment.cpp" />
+    <ClCompile Include="lighttool.cpp" />
+    <ClCompile Include="lineargauge.cpp" />
+    <ClCompile Include="lineseries.cpp" />
+    <ClCompile Include="linktool.cpp" />
+    <ClCompile Include="macdfunction.cpp" />
+    <ClCompile Include="magnifytool.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="mappolygon.cpp" />
+    <ClCompile Include="mappolygonlist.cpp" />
+    <ClCompile Include="mapseries.cpp" />
+    <ClCompile Include="margins.cpp" />
+    <ClCompile Include="marks.cpp" />
+    <ClCompile Include="markscallout.cpp" />
+    <ClCompile Include="marksitem.cpp" />
+    <ClCompile Include="markssymbol.cpp" />
+    <ClCompile Include="markstiptool.cpp" />
+    <ClCompile Include="medianfunction.cpp" />
+    <ClCompile Include="metafileexport.cpp" />
+    <ClCompile Include="mirrorfilter.cpp" />
+    <ClCompile Include="modefunction.cpp" />
+    <ClCompile Include="mosaicfilter.cpp" />
+    <ClCompile Include="movingavgfunction.cpp" />
+    <ClCompile Include="mscomm.cpp" />
+    <ClCompile Include="msflexgrid.cpp" />
+    <ClCompile Include="nativeexport.cpp" />
+    <ClCompile Include="nearesttool.cpp" />
+    <ClCompile Include="numericgauge.cpp" />
+    <ClCompile Include="numericmarker.cpp" />
+    <ClCompile Include="obvfunction.cpp" />
+    <ClCompile Include="OnDrawView.cpp" />
+    <ClCompile Include="orgitem.cpp" />
+    <ClCompile Include="orgitemcollection.cpp" />
+    <ClCompile Include="orgseries.cpp" />
+    <ClCompile Include="orgshape.cpp" />
+    <ClCompile Include="page.cpp" />
+    <ClCompile Include="pagenumtool.cpp" />
+    <ClCompile Include="panel.cpp" />
+    <ClCompile Include="pcxexport.cpp" />
+    <ClCompile Include="pdfexport.cpp" />
+    <ClCompile Include="pen.cpp" />
+    <ClCompile Include="performancefunction.cpp" />
+    <ClCompile Include="picture.cpp" />
+    <ClCompile Include="piemarks.cpp" />
+    <ClCompile Include="pieotherslice.cpp" />
+    <ClCompile Include="pieseries.cpp" />
+    <ClCompile Include="pietool.cpp" />
+    <ClCompile Include="pngexport.cpp" />
+    <ClCompile Include="point3dseries.cpp" />
+    <ClCompile Include="pointarray.cpp" />
+    <ClCompile Include="pointer.cpp" />
+    <ClCompile Include="pointfigureseries.cpp" />
+    <ClCompile Include="pointseries.cpp" />
+    <ClCompile Include="polarbarseries.cpp" />
+    <ClCompile Include="polargridseries.cpp" />
+    <ClCompile Include="polarseries.cpp" />
+    <ClCompile Include="printer.cpp" />
+    <ClCompile Include="printersettings.cpp" />
+    <ClCompile Include="pvofunction.cpp" />
+    <ClCompile Include="pyramidseries.cpp" />
+    <ClCompile Include="radarseries.cpp" />
+    <ClCompile Include="rectangletool.cpp" />
+    <ClCompile Include="renkoseries.cpp" />
+    <ClCompile Include="resizefilter.cpp" />
+    <ClCompile Include="rmsfunction.cpp" />
+    <ClCompile Include="rotatefilter.cpp" />
+    <ClCompile Include="rotatetool.cpp" />
+    <ClCompile Include="rowcursor.cpp" />
+    <ClCompile Include="rsifunction.cpp" />
+    <ClCompile Include="sarfunction.cpp" />
+    <ClCompile Include="scroll.cpp" />
+    <ClCompile Include="scrollbarthumb.cpp" />
+    <ClCompile Include="selectortool.cpp" />
+    <ClCompile Include="series.cpp" />
+    <ClCompile Include="seriesanimationtool.cpp" />
+    <ClCompile Include="seriesbandtool.cpp" />
+    <ClCompile Include="seriesgroup.cpp" />
+    <ClCompile Include="seriesgroups.cpp" />
+    <ClCompile Include="serieslist.cpp" />
+    <ClCompile Include="seriesmarkposition.cpp" />
+    <ClCompile Include="seriesmarkspositions.cpp" />
+    <ClCompile Include="seriesregiontool.cpp" />
+    <ClCompile Include="seriesstatstool.cpp" />
+    <ClCompile Include="shapeseries.cpp" />
+    <ClCompile Include="sharpenfilter.cpp" />
+    <ClCompile Include="ShowMessageView.cpp" />
+    <ClCompile Include="smithseries.cpp" />
+    <ClCompile Include="smoothingfunction.cpp" />
+    <ClCompile Include="smoothpoints.cpp" />
+    <ClCompile Include="softenfilter.cpp" />
+    <ClCompile Include="spacing.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="stddeviationfunction.cpp" />
+    <ClCompile Include="strings.cpp" />
+    <ClCompile Include="subgradient.cpp" />
+    <ClCompile Include="subsetteefunction.cpp" />
+    <ClCompile Include="surfacenearesttool.cpp" />
+    <ClCompile Include="surfaceseries.cpp" />
+    <ClCompile Include="surfacesides.cpp" />
+    <ClCompile Include="svgexport.cpp" />
+    <ClCompile Include="tablelegend.cpp" />
+    <ClCompile Include="tagcloudseries.cpp" />
+    <ClCompile Include="tchart.cpp" />
+    <ClCompile Include="teecustomshape.cpp" />
+    <ClCompile Include="teefilter.cpp" />
+    <ClCompile Include="teefont.cpp" />
+    <ClCompile Include="teefunction.cpp" />
+    <ClCompile Include="teeopengl.cpp" />
+    <ClCompile Include="teepicture.cpp" />
+    <ClCompile Include="teepoint2d.cpp" />
+    <ClCompile Include="teepoint3d.cpp" />
+    <ClCompile Include="teerect.cpp" />
+    <ClCompile Include="teeshadow.cpp" />
+    <ClCompile Include="teeshape.cpp" />
+    <ClCompile Include="teeshapepanel.cpp" />
+    <ClCompile Include="TempDetection.cpp" />
+    <ClCompile Include="TempDetectionDoc.cpp" />
+    <ClCompile Include="TempDetectionView.cpp" />
+    <ClCompile Include="text3dtool.cpp" />
+    <ClCompile Include="textexport.cpp" />
+    <ClCompile Include="tilefilter.cpp" />
+    <ClCompile Include="titles.cpp" />
+    <ClCompile Include="toollist.cpp" />
+    <ClCompile Include="tools.cpp" />
+    <ClCompile Include="towerseries.cpp" />
+    <ClCompile Include="transposeseriestool.cpp" />
+    <ClCompile Include="trendfunction.cpp" />
+    <ClCompile Include="trisurfaceseries.cpp" />
+    <ClCompile Include="valuelist.cpp" />
+    <ClCompile Include="valuelists.cpp" />
+    <ClCompile Include="vector3dseries.cpp" />
+    <ClCompile Include="videoplayertool.cpp" />
+    <ClCompile Include="videotool.cpp" />
+    <ClCompile Include="volumepipeseries.cpp" />
+    <ClCompile Include="volumeseries.cpp" />
+    <ClCompile Include="wall.cpp" />
+    <ClCompile Include="walls.cpp" />
+    <ClCompile Include="waterfallseries.cpp" />
+    <ClCompile Include="windroseseries.cpp" />
+    <ClCompile Include="worldseries.cpp" />
+    <ClCompile Include="xamlexport.cpp" />
+    <ClCompile Include="xlsexport.cpp" />
+    <ClCompile Include="xmlexport.cpp" />
+    <ClCompile Include="zoom.cpp" />
+    <ClCompile Include="zoomfilter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TempDetection.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\close.ico" />
+    <Image Include="res\comp.bmp" />
+    <Image Include="res\down .ico" />
+    <Image Include="res\listbmp1.bmp" />
+    <Image Include="res\ok.ico" />
+    <Image Include="res\silence.ico" />
+    <Image Include="res\speaker.ico" />
+    <Image Include="res\start.ico" />
+    <Image Include="res\stop.ico" />
+    <Image Include="res\stop2.ico" />
+    <Image Include="res\TempDetection.ico" />
+    <Image Include="res\TempDetectionDoc.ico" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\Toolbar256.bmp" />
+    <Image Include="UserImages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\TempDetection.rc2" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="TempDetection.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
